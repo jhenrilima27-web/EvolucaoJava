@@ -7,5 +7,7 @@ public class Main {
         System.out.println(joiu.nome);
         System.out.println(joiu.vida);
         System.out.println(joiu.nivel);
+
+        joiu.atacar();
     }
 }

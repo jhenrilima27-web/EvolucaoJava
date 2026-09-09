@@ -8,4 +8,8 @@ public class Personagem {
                 this.vida = vida;
                 this.nivel = nivel;
         }
+
+        public void atacar() {
+                System.out.println("O personagem está atacando!");
+        }
 }
