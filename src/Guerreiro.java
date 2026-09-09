@@ -1,5 +1,9 @@
 public class Guerreiro extends Personagem {
-        public Guerreiro(String nome, int vida, int nivel) {
-            super(nome, vida, nivel);
+
+    String arma;
+
+    public Guerreiro(String nome, int vida, int nivel, String arma) {
+        super(nome, vida, nivel);
+        this.arma = arma;
     }
 }
