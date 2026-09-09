@@ -6,4 +6,9 @@ public class Ocultista extends Personagem {
         super(nome, vida, nivel);
         this.ritual = ritual;
     }
+
+    @Override
+    public void atacar() {
+        System.out.println("O Ocultista realiza o ritual " + ritual + "!");
+    }
 }
