@@ -6,4 +6,9 @@ public class Guerreiro extends Personagem {
         super(nome, vida, nivel);
         this.arma = arma;
     }
+
+    @Override
+    public void atacar() {
+        System.out.println("O " + nome +" ataca com " + arma + "!");
+    }
 }
