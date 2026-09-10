@@ -32,6 +32,10 @@ public class Personagem {
         return nivel;
     }
 
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
+    }
+
     public void atacar() {
         System.out.println("O personagem está atacando!");
     }
