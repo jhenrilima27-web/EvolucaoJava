@@ -1,6 +1,6 @@
 public class Ocultista extends Personagem {
 
-    String ritual;
+    private String ritual;
 
     public Ocultista(String nome, int vida, int nivel, String ritual) {
         super(nome, vida, nivel);
@@ -9,6 +9,6 @@ public class Ocultista extends Personagem {
 
     @Override
     public void atacar() {
-        System.out.println("O Ocultista realiza o ritual " + ritual + "!");
+        System.out.println("O " + getNome() +" realiza o ritual " + ritual + "!");
     }
 }
