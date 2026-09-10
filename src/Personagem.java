@@ -18,6 +18,10 @@ public class Personagem {
         return vida;
     }
 
+    public int getNivel() {
+        return nivel;
+    }
+
     public void atacar() {
         System.out.println("O personagem está atacando!");
     }
