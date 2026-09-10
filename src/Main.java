@@ -13,5 +13,9 @@ public class Main {
         for (Personagem personagem : personagens) {
             personagem.atacar();
         }
+
+        System.out.println(joiu.getNome());
+        System.out.println(joiu.getVida());
+        System.out.println(joiu.getNivel());
     }
 }
