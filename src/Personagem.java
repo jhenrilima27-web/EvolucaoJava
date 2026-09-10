@@ -14,6 +14,10 @@ public class Personagem {
         return nome;
     }
 
+    public int getVida() {
+        return vida;
+    }
+
     public void atacar() {
         System.out.println("O personagem está atacando!");
     }
