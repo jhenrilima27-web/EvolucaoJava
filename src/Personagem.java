@@ -1,15 +1,16 @@
 public class Personagem {
-        String nome;
-        int vida;
-        int nivel;
 
-        public Personagem(String nome, int vida, int nivel) {
-                this.nome = nome;
-                this.vida = vida;
-                this.nivel = nivel;
-        }
+    private String nome;
+    private int vida;
+    private int nivel;
 
-        public void atacar() {
-                System.out.println("O personagem está atacando!");
-        }
+    public Personagem(String nome, int vida, int nivel) {
+        this.nome = nome;
+        this.vida = vida;
+        this.nivel = nivel;
+    }
+
+    public void atacar() {
+        System.out.println("O personagem está atacando!");
+    }
 }
