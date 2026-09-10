@@ -22,6 +22,12 @@ public class Personagem {
         return vida;
     }
 
+    public void setVida(int vida) {
+        if (vida >= 0) {
+            this.vida = vida;
+        }
+    }
+
     public int getNivel() {
         return nivel;
     }
