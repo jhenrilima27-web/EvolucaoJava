@@ -19,6 +19,7 @@ public class Personagem {
     }
 
     public int getVida() {
+
         return vida;
     }
 
@@ -26,6 +27,10 @@ public class Personagem {
         if (vida >= 0) {
             this.vida = vida;
         }
+    }
+
+    public void receberDano(int dano) {
+        setVida(getVida() - dano);
     }
 
     public int getNivel() {
