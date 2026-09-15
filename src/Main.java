@@ -14,6 +14,13 @@ public class Main {
             personagem.atacar();
         }
 
+        System.out.println("Vida antes: " + joiu.getVida());
+
+        joiu.setVida(200);
+        System.out.println("Nova vida: " + joiu.getVida());
+
+        System.out.println("Vida depois: " + joiu.getVida());
+
         System.out.println(joiu.getNome());
         System.out.println(joiu.getVida());
         System.out.println(joiu.getNivel());
