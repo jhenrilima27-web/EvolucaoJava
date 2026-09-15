@@ -8,7 +8,7 @@ public class Ocultista extends Personagem {
     }
 
     @Override
-    public void atacar() {
-        System.out.println("O " + getNome() +" realiza o ritual " + ritual + "!");
+    public void atacar(Personagem alvo) {
+        System.out.println("O " + getNome() +" realiza o ritual " + ritual + " no " + alvo.getNome()+ "!");
     }
 }

@@ -36,7 +36,7 @@ public class Personagem {
         this.nivel = nivel;
     }
 
-    public void atacar() {
-        System.out.println("O personagem está atacando!");
+    public void atacar(Personagem alvo) {
+        System.out.println(getNome() + " está atacando " + alvo.getNome()+ " !");
     }
 }

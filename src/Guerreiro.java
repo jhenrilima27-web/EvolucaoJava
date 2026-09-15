@@ -8,7 +8,7 @@ public class Guerreiro extends Personagem {
     }
 
     @Override
-    public void atacar() {
-        System.out.println("O "+ getNome() +" ataca com " + arma + "!");
+    public void atacar(Personagem alvo) {
+        System.out.println("O "+ getNome() +" ataca o "+ alvo.getNome() +" com " + arma + "!");
     }
 }
